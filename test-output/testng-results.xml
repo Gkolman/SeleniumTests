@@ -2,15 +2,31 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="32" started-at="2021-09-01T22:36:46Z" finished-at="2021-09-01T22:36:46Z">
+  <suite name="Default suite" duration-ms="12626" started-at="2021-09-01T23:29:00Z" finished-at="2021-09-01T23:29:13Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="32" started-at="2021-09-01T22:36:46Z" finished-at="2021-09-01T22:36:46Z">
+    <test name="Default test" duration-ms="12626" started-at="2021-09-01T23:29:00Z" finished-at="2021-09-01T23:29:13Z">
       <class name="com.test.seleniumTest.SeleniumTest">
-        <test-method status="PASS" signature="print()[pri:0, instance:com.test.seleniumTest.SeleniumTest@48aaecc3]" name="print" duration-ms="13" started-at="2021-09-01T15:36:46Z" finished-at="2021-09-01T15:36:46Z">
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:com.test.seleniumTest.SeleniumTest@4690b489]" name="testSetup" is-config="true" duration-ms="7683" started-at="2021-09-01T16:29:00Z" finished-at="2021-09-01T16:29:08Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- print -->
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.test.seleniumTest.SeleniumTest@4690b489]" name="openBrowser" is-config="true" duration-ms="3624" started-at="2021-09-01T16:29:08Z" finished-at="2021-09-01T16:29:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="signUp()[pri:0, instance:com.test.seleniumTest.SeleniumTest@4690b489]" name="signUp" duration-ms="728" started-at="2021-09-01T16:29:12Z" description="This method validates the sign up functionality" finished-at="2021-09-01T16:29:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUp -->
+        <test-method status="PASS" signature="postSignUp()[pri:0, instance:com.test.seleniumTest.SeleniumTest@4690b489]" name="postSignUp" is-config="true" duration-ms="305" started-at="2021-09-01T16:29:12Z" finished-at="2021-09-01T16:29:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postSignUp -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.test.seleniumTest.SeleniumTest@4690b489]" name="afterClass" is-config="true" duration-ms="269" started-at="2021-09-01T16:29:13Z" finished-at="2021-09-01T16:29:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
       </class> <!-- com.test.seleniumTest.SeleniumTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
