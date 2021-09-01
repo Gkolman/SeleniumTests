@@ -25,7 +25,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class SeleniumTest {
 	@Test
     public void print() {
-	  	  System.out.println("running tests");
+	  	  System.out.println("success -> running selenium test ");
 	    }
   public static final String AUTOMATE_USERNAME = "gageguzman_ZaV8mo";
   public static final String AUTOMATE_ACCESS_KEY = "vpJhwMFZX3XKUPseGmWu";
