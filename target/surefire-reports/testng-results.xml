@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="12332" started-at="2021-09-02T02:02:41Z" finished-at="2021-09-02T02:02:53Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="12332" started-at="2021-09-02T02:02:41Z" finished-at="2021-09-02T02:02:53Z">
+      <class name="com.test.seleniumTest.SeleniumTest">
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:com.test.seleniumTest.SeleniumTest@147ed70f]" name="testSetup" is-config="true" duration-ms="8791" started-at="2021-09-01T19:02:41Z" finished-at="2021-09-01T19:02:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.test.seleniumTest.SeleniumTest@147ed70f]" name="openBrowser" is-config="true" duration-ms="2600" started-at="2021-09-01T19:02:50Z" finished-at="2021-09-01T19:02:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="signUp()[pri:0, instance:com.test.seleniumTest.SeleniumTest@147ed70f]" name="signUp" duration-ms="670" started-at="2021-09-01T19:02:52Z" description="This method validates the sign up functionality" finished-at="2021-09-01T19:02:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUp -->
+        <test-method status="PASS" signature="postSignUp()[pri:0, instance:com.test.seleniumTest.SeleniumTest@147ed70f]" name="postSignUp" is-config="true" duration-ms="13" started-at="2021-09-01T19:02:53Z" finished-at="2021-09-01T19:02:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postSignUp -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.test.seleniumTest.SeleniumTest@147ed70f]" name="afterClass" is-config="true" duration-ms="248" started-at="2021-09-01T19:02:53Z" finished-at="2021-09-01T19:02:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.test.seleniumTest.SeleniumTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
