@@ -31,14 +31,7 @@
 	  <version>6.9.8</version>
 	  <scope>test</scope>
 	</dependency>
-	
-<!--     <dependency>
-      <groupId>org.junit.jupiter</groupId>
-      <artifactId>junit-jupiter-engine</artifactId>
-      <version>5.7.1</version>
-      <scope>test</scope>
-    </dependency> -->
-    
+
   </dependencies>
 
   <build>
@@ -49,7 +42,11 @@
         <version>3.0.0-M5</version>
         <configuration>
           <suiteXmlFiles>
-           	<suiteXmlFile>testng.xml</suiteXmlFile>
+           	<suiteXmlFile>big_sur_chrome.xml</suiteXmlFile>
+            <suiteXmlFile>big_sur_edge.xml</suiteXmlFile>
+           	<suiteXmlFile>Iphone11Test.xml</suiteXmlFile>
+            <suiteXmlFile>windows_10_firefox.xml</suiteXmlFile>
+            <suiteXmlFile>windows_10_ie.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>

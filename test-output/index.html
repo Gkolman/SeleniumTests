@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -101,7 +101,17 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.test.seleniumTest.SeleniumTest" hash-for-method="test">test</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.test.seleniumTest.big_sur_chrome" hash-for-method="run">run</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.test.seleniumTest.big_sur_chrome" hash-for-method="run1">run1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.test.seleniumTest.big_sur_chrome" hash-for-method="run2">run2</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -119,14 +129,28 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.test.seleniumTest.SeleniumTest</span>
+              <span class="class-name">com.test.seleniumTest.big_sur_chrome</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="test">
-                  </a> <!-- test -->
-                  <span class="method-name">test</span>
+                  <a name="run">
+                  </a> <!-- run -->
+                  <span class="method-name">run</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="run1">
+                  </a> <!-- run1 -->
+                  <span class="method-name">run1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="run2">
+                  </a> <!-- run2 -->
+                  <span class="method-name">run2</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -134,7 +158,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/private/var/folders/99/bncvmnqn72g9c5rpfb90gpl40000gn/T/testng-eclipse-1209249711/testng-customsuite.xml</span>
+            <span class="header-content">/private/var/folders/99/bncvmnqn72g9c5rpfb90gpl40000gn/T/testng-eclipse-2074613918/testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -143,7 +167,7 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot; parallel=&quot;none&quot;&gt;
   &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.test.seleniumTest.SeleniumTest&quot;/&gt;
+      &lt;class name=&quot;com.test.seleniumTest.big_sur_chrome&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -183,16 +207,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'test')
-data.setCell(0, 2, 'com.test.seleniumTest.SeleniumTest')
-data.setCell(0, 3, 20929);
+data.setCell(0, 1, 'run')
+data.setCell(0, 2, 'com.test.seleniumTest.big_sur_chrome')
+data.setCell(0, 3, 29982);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'run2')
+data.setCell(1, 2, 'com.test.seleniumTest.big_sur_chrome')
+data.setCell(1, 3, 20982);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'run1')
+data.setCell(2, 2, 'com.test.seleniumTest.big_sur_chrome')
+data.setCell(2, 3, 13027);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 20 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -218,10 +250,18 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.test.seleniumTest.SeleniumTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.test.seleniumTest.big_sur_chrome</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">test</span>
+                <span class="method-name">run</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">run1</span>
+                <span class="method-start">29984 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">run2</span>
+                <span class="method-start">43012 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
